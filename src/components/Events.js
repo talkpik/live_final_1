@@ -17,55 +17,27 @@ render(){
                 <div className="col-lg-12">
                     <div className="card">
                         <div className="card-body">
-                            <div className="card-title">Supply Chain Management</div>
+                            <div className="card-title">Past Webinar Events</div>
 	  						<div className="card-subtitle">Careers & Resources</div>
                             <hr className="cell-divide-hr"></hr>
                             <div className="price">
-                                <span className="value">Dec 2, 2020</span>
-                                <div className="frequency">6:00 -6: 45 PM PDT</div>
+                                <span className="value"></span>
+                                <div className="value"></div>
                             </div>
                             <hr className="cell-divide-hr"></hr>
                             <ul className="list-unstyled li-space-lg">
                                 <li className="media">
-                                    <i className="fas fa-check"></i><div className="media-body">City of Vancouver employee</div>
+                                    <i className="fas fa-check"></i><div className="media-body">Supply Chain Management</div>
                                 </li>
                                 <li className="media">
-                                    <i className="fas fa-check"></i><div className="media-body">APICS Vancouver President</div>
+                                    <i className="fas fa-check"></i><div className="media-body">University of British Columbia</div>
                                 </li>
                             </ul>
-                            <button className="btn-solid-reg popup-with-move-anim" onClick={(e) => this.setState({isOpen:true})} >REGISTER</button>
-	  							<Dialog isOpen={this.state.isOpen} onClose={(e) => this.setState({isOpen:false})}>
-                                  <iframe title="event1" src="https://formfaca.de/sm/T-pK8yXMA" width="640" height="400" frameborder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
-	  							</Dialog>
+                            
 							
                         </div>
                     </div> 
                 	<div className="card">
-                        <div className="card-body">
-                            <div className="card-title">University of British Columbia</div>
-	  						<div className="card-subtitle">Business School</div>
-                            <hr className="cell-divide-hr"></hr>
-                            <div className="price">
-                                <span className="value">Dec 16, 2020</span>
-                                <div className="frequency">6:00-6:45 PM PDT</div>
-                            </div>
-                            <hr className="cell-divide-hr"></hr>
-                            <ul className="list-unstyled li-space-lg">
-                                <li className="media">
-                                    <i className="fas fa-check"></i><div className="media-body">UBC Alumni panel</div>
-                                </li>
-                                <li className="media">
-                                    <i className="fas fa-check"></i><div className="media-body">Undergraduate and Graduate</div>
-                                </li>
-                            </ul>
-                            <button className="btn-solid-reg popup-with-move-anim" onClick={(e) => this.setState({isOpen:true})} >REGISTER</button>
-	  							<Dialog isOpen={this.state.isOpen} onClose={(e) => this.setState({isOpen:false})}>
-                                  <iframe title="event1" src="https://formfaca.de/sm/T-pK8yXMA" width="640" height="400" frameborder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
-	  							</Dialog>
-							
-                        </div>
-                    </div>
-					<div className="card">
                         <div className="card-body">
                             <div className="card-title">Software Development</div>
 	  						<div className="card-subtitle">Learn to tackle your interviews!</div>
@@ -90,7 +62,32 @@ render(){
 							
                         </div>
                     </div>
-
+                    <div className="card">
+                        <div className="card-body">
+                            <div className="card-title">Upcoming Webinar Events</div>
+	  						<div className="card-subtitle">Careers & Resources</div>
+                            <hr className="cell-divide-hr"></hr>
+                            <div className="price">
+                                <span className="value"></span>
+                                <div className="frequency"></div>
+                            </div>
+                            <hr className="cell-divide-hr"></hr>
+                            <ul className="list-unstyled li-space-lg">
+                                <li className="media">
+                                    <i className="fas fa-check"></i><div className="media-body">Professionals from the HR, Finance, Software Testing domains and many more.</div>
+                                </li>
+                                <li className="media">
+                                    <i className="fas fa-check"></i><div className="media-body">Current employees of Amazon, Apple, Microsoft and many more organizations.</div>
+                                </li>
+                            </ul>
+                            <button className="btn-solid-reg popup-with-move-anim" onClick={(e) => this.setState({isOpen:true})} >REGISTER</button>
+	  							<Dialog isOpen={this.state.isOpen} onClose={(e) => this.setState({isOpen:false})}>
+                                  <iframe title="event1" src="https://formfaca.de/sm/T-pK8yXMA" width="640" height="400" frameborder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
+	  							</Dialog>
+							
+                        </div>
+                    </div>
+					
                 </div> 
             </div> 
         </div> 
