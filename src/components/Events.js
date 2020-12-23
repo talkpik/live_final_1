@@ -74,10 +74,10 @@ render(){
                             <hr className="cell-divide-hr"></hr>
                             <ul className="list-unstyled li-space-lg">
                                 <li className="media">
-                                    <i className="fas fa-check"></i><div className="media-body">Professionals from the HR, Finance, Software Testing domains and many more.</div>
+                                    <i className="fas fa-check"></i><div className="media-body">Professionals from the HR, Finance, Software Testing domains and more.</div>
                                 </li>
                                 <li className="media">
-                                    <i className="fas fa-check"></i><div className="media-body">Current employees of Amazon, Apple, Microsoft and many more organizations.</div>
+                                    <i className="fas fa-check"></i><div className="media-body">Current employees of Microsoft, Best Buy, Lululemon and more.</div>
                                 </li>
                             </ul>
                             <button className="btn-solid-reg popup-with-move-anim" onClick={(e) => this.setState({isOpen:true})} >REGISTER</button>
