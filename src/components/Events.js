@@ -18,7 +18,7 @@ render(){
                     <div className="card">
                         <div className="card-body">
                             <div className="card-title">Past Webinar Events</div>
-	  						<div className="card-subtitle">Careers & Resources</div>
+	  						<div className="card-subtitle"></div>
                             <hr className="cell-divide-hr"></hr>
                             <div className="price">
                                 <span className="value"></span>
@@ -65,7 +65,7 @@ render(){
                     <div className="card">
                         <div className="card-body">
                             <div className="card-title">Upcoming Webinar Events</div>
-	  						<div className="card-subtitle">Careers & Resources</div>
+	  						<div className="card-subtitle"></div>
                             <hr className="cell-divide-hr"></hr>
                             <div className="price">
                                 <span className="value"></span>
