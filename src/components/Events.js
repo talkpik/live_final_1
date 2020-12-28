@@ -49,7 +49,7 @@ render(){
                             <hr className="cell-divide-hr"></hr>
                             <ul className="list-unstyled li-space-lg">
                                 <li className="media">
-                                    <i className="fas fa-check"></i><div className="media-body">LightHouse Lab Mentor</div>
+                                    <i className="fas fa-check"></i><div className="media-body">LightHouse Labs Mentor</div>
                                 </li>
                                 <li className="media">
                                     <i className="fas fa-check"></i><div className="media-body">Ex-IBM WCS Developer</div>
